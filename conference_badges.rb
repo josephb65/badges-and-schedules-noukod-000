@@ -8,5 +8,5 @@ def batch_badge_creator(badge)
   badge.each do |var|
     batch_arr << badge_maker(var)
   end 
-  badge_maker
+  batch_arr
 end 
