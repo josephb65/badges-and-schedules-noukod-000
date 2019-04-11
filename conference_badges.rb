@@ -18,3 +18,17 @@ def assign_rooms(name_array)
   end
   room_assign
 end
+
+def printer(attendees)
+  attendee_badges = batch_badge_creator(attendees)
+  attendee_rooms = assign_rooms(attendees)
+
+
+  attendee_badges.each do |badge|
+    puts badge
+  end
+
+   attendee_rooms.each do |room_message|
+    puts room_message
+  end
+end
