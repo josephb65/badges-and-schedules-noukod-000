@@ -6,5 +6,7 @@ end
 def batch_badge_creator(badge)
   batch_arr = []
   badge.each do |var|
-    batch_arr << badge_maker(na)
+    batch_arr << badge_maker(var)
+  end 
+  badge_maker
 end 
